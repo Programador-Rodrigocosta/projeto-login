@@ -5,6 +5,8 @@ Esquema de cores definidas (paleta de corespara o projeto login)
 verde: #49a09d
 lílas:#5f2c82
 
+versão mobile first
+
 */
 
 * {
@@ -52,6 +54,63 @@ main{
     padding: 10px;
     display: block;
     
-  
+    
 
+}
+
+fieldset {
+    border-radius: 10px;
+    background-color: #5f2c82;
+    border :none;
+    margin-top: 5px;
+    
+}
+h1 {
+    text-align: center;
+   
+}
+p {
+   color: gray;
+   font-size :0.8em;
+}
+
+
+
+
+
+#iusu {
+    background-color: #49a09d;
+    border: 2px solid #5f2c82 ;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-left: 35px;
+    outline-color:darkgoldenrod ;
+    
+}
+#isen{
+    background-color:#49a09d ;
+    border:2px solid #5f2c82;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-left: 35px;
+    outline-color:darkgoldenrod ;
+    
+    
+}
+
+    
+button {
+  width: 230px;
+  height: 30px;
+  background-color: #49a09d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  
+}
+a{
+   
+    color: grey;
+    text-decoration: none;
+    display: flex;
 }

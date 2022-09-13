@@ -8,23 +8,58 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    <main>
+     <main>
         <section id="login">
             <div id="imagem">
                 
 
             </div>
 
-            <div id="formulario">
-                <h1>login</h1>
+           <div id="formulario">
+                          <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça o login para acessar a sua conta e poder fazer as configurações em seu ambiente.</p>
-                <form action="login.php" method="post">
+              <form action="login.php" method="post" autocomplete="on">
+                
+                    
+                        <fieldset>
+                            <label for="iusu" id="">
+                            <img src="imagens/avatar.svg" alt="e-mail" width="33px" height="33px">
+                            </label>
+                            <input type="email" name="usu" id="iusu" required minlength="5" maxlength="15" size="20" placeholder="seu e-mail" >
+                        </fieldset>
+                    
 
+                    
+                        <fieldset>
+                            <label for="isen">
+                                <img src="imagens/lock.svg" alt="senha" width="33px" height="33px" >
+                            </label>
+                            <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="20" placeholder="sua senha" >
+                        </fieldset>
+                    
+                    
+                        <input type="checkbox" name="checkbox" id="icheck">
+                        <label for="icheck">Lembrar senha</label>
+                    
+                    <button>
+                        Entrar
+                    </button>
+                    
+              
                 </form>
+                <footer>
+                    <span><a href="#">Esqueci minha senha</a></span>
+                      <a href="#">Criar nova conta</a>
+          
+                  </footer>
 
             </div>
 
+        </main>
         </section>
-    </main>
+   
+
+         
+
 </body>
 </html>
