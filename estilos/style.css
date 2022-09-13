@@ -26,6 +26,8 @@ main{
     position: relative;
     height: 100vh;
     width: 100vw;
+    display: block;
+   
 }
 #login {
     position: absolute;
@@ -62,8 +64,9 @@ fieldset {
     border-radius: 10px;
     background-color: #5f2c82;
     border :none;
-    margin-top: 5px;
-    
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 5px;    
 }
 h1 {
     text-align: center;
@@ -112,5 +115,7 @@ a{
    
     color: grey;
     text-decoration: none;
-    display: flex;
+    display: block;
 }
+input {
+    writing-mode: horizontal-tb !important;}
