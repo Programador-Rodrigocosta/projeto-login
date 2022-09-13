@@ -53,8 +53,9 @@ main{
 
 }
 #login > #formulario {
-    padding: 10px;
+    padding:10px;
     display: block;
+
     
     
 
@@ -64,8 +65,7 @@ fieldset {
     border-radius: 10px;
     background-color: #5f2c82;
     border :none;
-    padding-top: 1px;
-    padding-bottom: 1px;
+  
     margin-top: 5px;    
 }
 h1 {
@@ -88,6 +88,7 @@ p {
     padding-top: 20px;
     padding-left: 10px;
     outline-color:darkgoldenrod ;
+    padding-right: 25px;
     
 }
 #isen{
@@ -97,6 +98,7 @@ p {
     padding-top: 20px;
     padding-left: 10px;
     outline-color:darkgoldenrod ;
+    padding-right: 25px;
     
     
 }
