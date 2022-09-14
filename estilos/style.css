@@ -69,7 +69,7 @@ fieldset {
 }
 h1 {
     text-align: center;
-    
+    padding-bottom: 10px;
    
 }
 p {
@@ -85,8 +85,8 @@ p {
     background-color: #49a09d;
     border: 2px solid #5f2c82 ;
     border-radius: 8px;
-    padding-top: 15px;
-    
+    padding-top: 20px;
+    padding-left: 10px;
     outline-color:darkgoldenrod ;
     padding-right: 25px;
     
@@ -97,11 +97,10 @@ p {
     background-color:#49a09d ;
     border:2px solid #5f2c82;
     border-radius: 8px;
-    padding-top: 15px;
-    
+    padding-top: 20px;
+    padding-left: 10px;
     outline-color:darkgoldenrod ;
     padding-right: 25px;
-    
   
 
     
@@ -142,6 +141,4 @@ footer {
 label {
    margin: auto;
 }
-input {
-    margin: -5px;
-}
+
