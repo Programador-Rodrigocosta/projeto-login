@@ -129,5 +129,5 @@ a{
     
 }
 .container {
-    display: flex;
+    display: inline-block;
 }
