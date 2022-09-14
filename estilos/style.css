@@ -123,19 +123,7 @@ button {
   display: block;
   
 }
-#botão {
 
-    width: 230px;
-  height: 30px;
-  background-color: #49a09d;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  display: block;
-  
-
-}
 a{
    
     color: grey;
