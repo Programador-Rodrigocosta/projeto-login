@@ -137,3 +137,6 @@ a{
 footer {
     display: inline-block;
 }
+label {
+   margin: auto;
+}
