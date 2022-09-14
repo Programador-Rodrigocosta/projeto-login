@@ -125,9 +125,12 @@ a{
    
     color: grey;
     text-decoration: none;
-    display: block;
+    display: inline-block
     
 }
 .container {
+    display: inline-block;
+}
+footer {
     display: inline-block;
 }
