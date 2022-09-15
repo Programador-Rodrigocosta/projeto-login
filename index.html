@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
      <main>
@@ -21,48 +23,41 @@
               <form action="login.php" method="post" autocomplete="on">
                 
                     
-                        <div class="container">
-                            <fieldset>
-                                <label for="iusu" id="">
-                                <img src="imagens/avatar.svg" alt="e-mail" width="33px" height="33px">
-                                </label>
-                                <input type="email" name="usu" id="iusu" required minlength="5" maxlength="50" size="20" placeholder="seu e-mail" >
-                            </fieldset>
-                        
-                    
+                        <div class="campo">
+                            <i class="material-icons">person</i>
+                                <input type="email" name="login" id="ilogin" required minlength="5" maxlength="50" placeholder="seu e-mail"  autocomplete="email">
+                                <label for="ilogin">Login</label>
 
-                    
+                        </div>       
                         
-                            <fieldset>
-                                <label for="isen">
-                                    <img src="imagens/lock.svg" alt="senha" width="33px" height="33px" >
-                                </label>
-                                <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="20" placeholder="sua senha" >
-                            </fieldset>
+                        <div class="campo">
+                                <i class="material-icons">vpn_key</i>
+                                <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20"  placeholder="sua senha" autocomplete="current-password">
+                                <label for="isen">Senha</label>
                         </div>
                     
                     
                         <div>
-                            <input type="checkbox" name="checkbox" id="icheck">
+                            <input type="checkbox" name="checkbox" id="icheck" checked>
                             <label for="icheck" id="lembrar">Lembrar senha</label>
                         </div>
-                    
-                    <button>
-                        Entrar
-                    </button>
-                    
+                        <div>
+                            <input type="submit" value="Entrar" id="entrar">
+                        
+                        </div>
+
+                        <a href="esqueci.html" class="botao">
+                            Esqueci a senha <i class="material-icons">mail</i>
+                        </a>
+                        <a href="criar conta.html" class="botao">
+                            Criar conta <i class="material-icons" >person</i>
+                        </a>
               
                 </form>
-                <footer>
-                    <span><a href="#">Esqueci minha senha</a></span>
-                      <a href="#">Criar nova conta</a>
-          
-                  </footer>
-
-            </div>
+           </div>
 
         </main>
-        </section>
+     </section>
    
 
          
